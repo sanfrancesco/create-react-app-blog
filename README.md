@@ -11,6 +11,7 @@ A create-react-app plugin for a Jekyll style Markdown blog. Dependencies are inj
 5. `mkdir src/_posts`
 6. `touch src/_posts/2016-10-20-hello-world.md`
 7. ```javascript
+     import 'babel-polyfill'; // this is for IE11 (older browsers), npm install --save-dev babel-polyfill
      import React from 'react';
      import { IndexRoute, Link, Router, Route, browserHistory } from 'react-router';
      import Helmet from 'react-helmet';
