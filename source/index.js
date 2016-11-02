@@ -25,7 +25,7 @@ const blogWrapper = (React, Helmet, Link, { __content, title, description, og })
 
 const blogIndex = (React, Link, blogs) => () => (
   <section>
-    <h2>Blog</h2>
+    <h1>Blog</h1>
     <div>
       <div>
         <ul>
