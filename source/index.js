@@ -46,7 +46,7 @@ const blogIndex = (React, Link, blogs) => () => (
 )
 
 export default function(React, IndexRoute, Link, Route, Helmet) {
-  var webpackRequireContext = require.context('markdown-with-front-matter!./../../../src/_posts', false, /\.md$/);
+  var webpackRequireContext = require.context('!markdown-with-front-matter!./../../../src/_posts', false, /\.md$/);
 
   var blogs = webpackRequireContext.keys().sort().reverse().reduce((memo, fileName) => {
     // frontmatter and content (actual markdown is loaded on '__content', frontmatter is right on root)

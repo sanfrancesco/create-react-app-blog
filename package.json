@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-blog",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "create-react-app plugin for a Jekyll style Markdown blog",
   "main": "./distribution/index.js",
   "scripts": {
