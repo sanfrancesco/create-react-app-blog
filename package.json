@@ -1,7 +1,7 @@
 {
   "name": "create-react-app-blog",
-  "version": "0.1.7",
-  "description": "create-react-app plugin for a Jekyll style Markdown blog",
+  "version": "1.0.0",
+  "description": "create-react-app plugin for a Jekyll style Markdown blog, depends on react, react-router@v3, and react-helmet@v4",
   "main": "./distribution/index.js",
   "scripts": {
     "clean": "rm -rf distribution",
